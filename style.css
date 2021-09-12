@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+
+
+/*----------Nav-bar Section Start----------*/
+
+
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+    padding: 0 !important;
+}
+.navbar-brand img{
+    height: 40px;
+    padding-left: 20px;
+    margin-right: 200px;
+    
+}
+.navbar-nav li{
+    padding: 0 10px;
+    font-size: 20px;
+    
+}
+.navbar-nav li a{
+    color: #fff !important;
+    font-weight: 600;
+    float: right;
+    text-align: right;
+}
+.fa-bars{
+    color: #fff;
+    font-size: 30px; !important;
+    
+}
+.navbar-toggler{
+    outline: none; !important;
+}
+
+
+/*----------Nav-bar Section End----------*/
+
+
+/*---------Banner Section Start----------*/
+
+#banner{
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+    color: #fff;
+    padding-top: 5%;
+}
+.promo-title{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    
+}
+#banner p{
+    font-size: 20px;
+}
+#banner img{
+    margin: 40px;
+    width: 80%;
+    border-radius: 5%;
+}
+
+
+/*---------Banner Section End----------*/
+
+/*----------Services Section Start----------*/
+
+
+#services{
+    padding: 40px 0;
+    
+}
+#services p{
+    font-size: 20px;
+    text-align: justify;
+}
+.services h4{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+.title{
+    font-size: 35px;
+}
+.title::before{
+    content: '';
+    background: #7b1798;
+    height: 4px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(62px)
+    
+}
+#services .btn-primary{
+    box-shadow: none;
+    padding: 8px 25px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+    margin-top: 30px;
+}
+
+
+/*----------Services Section End----------*/
+
+/*----------About Us Section Start----------*/
+
+
+#about-us{
+    background: #f8f9fa;
+    padding: 40px 0;
+}
+.about-title{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 8%;
+    margin-left: 60px;
+    
+}
+.img-fluid{
+    margin-top: 76px;
+    border-radius: 5%;
+}
+#about-us ul{
+    margin-left: 10px;
+    
+}
+#about-us ul li{
+    margin: 12px 0;
+    font-size: 20px;
+}
+
+
+/*----------About Us Section End----------*/
+
+/*----------Testimonials Section Start----------*/
+
+
+#testimonials{
+    margin: 40px 0;
+    
+}
+#testimonials .row{
+    margin-top: 80px;
+}
+.testimonials{
+    border-left: 4ps solid #a517ba;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+.testimonials p{
+    font-size: 20px;
+}
+.testimonials img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+.user-details{
+    display: inline-block;
+    font-size: 12px;
+}
+
+
+/*----------Testimonials Section End----------*/
+
+/*-----------social media section Start----------*/
+
+
+#social-media{
+    background: #f8f9fa;
+    padding: 40px 0;
+}
+#social-media h2{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.social-icons .fab{
+    margin: 15px;
+    border-radius: 50%;
+    font-size: 40px;
+    transition: 0.5s;
+}
+.social-icons a:hover .fab{
+    transform: translateY(-10px);
+}
+
+
+/*-----------Social Media Section End----------*/
+
+/*----------Footer Section Start----------*/
+
+
+#footer{
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+    color: #fff;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+.footer-box .footer-text{
+    font-size: 20px;
+    text-align: justify;
+    margin-right: 40px;
+}
+.footer-box .fas{
+    margin-right: 8px;
+    font-size: 25px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    padding: 3px;
+    border-radius: 3px;
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+}
+.footer-box .form-control{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 3px;
+    margin-top: 15px;
+    max-width: 250px
+    
+}
+.footer-box .btn-primary{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 3px;
+    margin-top: 15px;
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+}
+hr{
+    background: #fff;
+}
+.copyright{
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 16px;
+}
+
+
+/*----------Footer Section End----------*/
